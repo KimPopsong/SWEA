@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Solution_d5_1247_최적경로_서울_14반_김대성 {
+public class Solution {
 	static int customerNumber, minDistance; // 손님의 수, 최단거리
 	static boolean[] isVisit;
 	static Point company, house; // 회사의 좌표, 집의 좌표
