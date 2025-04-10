@@ -81,6 +81,7 @@ public class Solution {
 			}
 
 			int r = rowSize - 1;
+			
 			while (!queue.isEmpty()) {
 				newMap[r][c] = queue.removeFirst();
 				r -= 1;
